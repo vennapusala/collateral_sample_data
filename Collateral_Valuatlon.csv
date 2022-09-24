@@ -1,0 +1,5 @@
+CollateralValuationTypeID,Valuation_Type,CollateralID,Indexation,Valuation_Currency,Valuation_Date
+1,Profits Method,32470,true,GBP,2017-06-30
+2,Vacant Possession Value,32480,true,GBP,2017-03-28
+3,Market Value,32481,true,GBP,2017-06-30
+4,Rent Capitalisation,32542,false,GBP,2017-06-30

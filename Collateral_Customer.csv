@@ -1,0 +1,5 @@
+CustomerID,CollateralID,CollateralGrossValue,BeneficiaryCustomerID,GrossValueCurrency,DiscountedValue,DiscountedCurrency,FacilityLoanToValueRatio
+123,32470,280000.00,9499,GBP,25000.00,GBP,10
+456,32480,570000.00,04040,GBP,54000.00,GBP,15
+789,32481,140000.00,87547,GBP,120000,GBP,20
+567,32542,750000.00,74399,GBP,70000.00,GBP,25

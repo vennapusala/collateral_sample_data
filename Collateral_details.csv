@@ -1,0 +1,5 @@
+CollateralID,CollateralTypeID,Property_Type,Property_Type_Description,Collateral_Status,Tenure_Type,Collateral_Zip_Code,Property_UseType,Region,ChargeType,ChargeHolder,ChargeOrder,ChargeTypeID
+32470,17,Landbank,Landbank,Available - Draw Down Permitted,fixed,M33 3EN,Commercial,UK,cash,Holder1,First Charge,1
+32480,17,Leasehold,Leasehold,Perfected Legally Complete,variable,EH11 1BS,Residential,UK,card,Holder2,Second Charge,2
+32481,18,Freehold,Freehold,Discharge Requested,fixed,WA14 3XY,Commercial,UK,bacs,Holder3,Subsequent,3
+32542,18,Landbank,Landbank,Recoveries Case Closed - Not Discharged,variable,CL4 2ZY,Residential,UK,cash,Holder4,First Charge,1

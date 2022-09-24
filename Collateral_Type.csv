@@ -1,0 +1,5 @@
+CollateralTypeID,CollateralSubtypeID,AllMoniesFlag,CollateralTypeDescription,CollateralSubTypeDescription,
+17,1,true,Pledge,Cash Deposits
+17,2,true,Pledge,gold
+18,3,true,Property,house
+18,4,true,Property,hotel
