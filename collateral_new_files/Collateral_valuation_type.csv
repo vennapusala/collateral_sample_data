@@ -1,0 +1,29 @@
+﻿CollateralValuationTypeID,CollateralValuationDescription
+1,Profits Method
+2,Vacant Possession Value
+3,Market Value
+4,Existing Use Value Social Housing 1
+5,Existing Use Value Social Housing 2
+6,Market Value Tenanted
+7,Discounted Cashflow
+8,Rent Capitalisation
+9,Alternative Use Value
+10,Other
+11,Forced Sale Valuation
+12,In House Valuation
+13,CAP Commercial Vehicle Valuation Guide
+14,External Valuation of Asset Type
+15,"External Aircraft Valuation(Ascend,IBA,Vref,HeliValues)"
+16,Residual Value
+17,Indexed Value
+18,Estimated Realisation Value
+19,Investment Value
+20,Managers Valuation
+21,Non Agricultural
+22,Open Market Value
+23,Property Prof Valued <3yrs
+24,Property Prof Valued >3yrs
+25,Purchase Price
+26,Drive By
+27,Agricultural
+28,Professional

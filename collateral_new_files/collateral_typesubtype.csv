@@ -1,0 +1,166 @@
+﻿CollateralTypeID,CollateralTypeDescription,GroupCollateralTypeID
+1,Aircraft engines,NULL
+2,Aircraft engines,1
+3,Aircraft (inc helicopters non-contract),NULL
+4,Aircraft (inc helicopters non-contract),3
+5,Aircraft Mortgage,NULL
+6,Alternative Fund Assets,NULL
+7,Alternative Fund Assets,6
+8,Assignment,NULL
+9,Cash (currency) without setoff,NULL
+10,Cash (currency) without setoff,9
+11,Cash (same ccy) without setoff,NULL
+12,Cash (same ccy) without setoff,11
+13,Charge Over Debtor Book,NULL
+14,"Charge over natural resources, licences, reserves",NULL
+15,"Charge over natural resources, licences, reserves",14
+16,Collateral Warranty,NULL
+17,"Commercial F/Hold (excl pubs, hotels and care homes)",NULL
+18,"Property - Legal Charge - Tenure, Freehold",17
+19,"Property - Other - Tenure, Freehold",17
+20,"Property - Standard Security - Tenure, Freehold",17
+21,"Commercial L/Hold and all pubs, hotels and care homes",NULL
+22,"Property - Legal Charge - Tenure, Leasehold",21
+23,"Property - Other - Tenure, Leasehold",21
+24,"Property - Standard Security - Tenure, Leasehold",21
+25,Commercial Vehicles/Freight Rail,NULL
+26,Commercial Vehicles/Freight Rail,25
+27,Consumer receivables (<1yr),NULL
+28,Consumer receivables (<1yr),27
+29,Consumer receivables (>1yr),NULL
+30,Consumer receivables (>1yr),29
+31,Corporate Receivables (non-debenture),NULL
+32,Corporate Receivables (non-debenture),31
+33,Counter Indemnity,NULL
+34,Cross Guarantee,NULL
+35,Debenture - Debtors,NULL
+36,Charge Over Debtor Book,35
+37,"Moveable - Debenture, Debtors",35
+38,"Moveable - Floating Charge, Debtors",35
+39,Debenture - Property,NULL
+40,"Moveable - Floating Charge, Property",39
+41,"Moveable - Debenture, Property",39
+42,Debenture - Stock,NULL
+43,"Moveable - Debenture, Stock",42
+44,Pledge - Pledge Over Inventories,42
+45,"Moveable - Floating Charge, Stock",42
+46,Other - Chattel Mortgage,42
+47,Guarantee,NULL
+48,Guarantee - Bank / Sovereign,NULL
+49,Guarantee - Bank / Sovereign,48
+50,Guarantee - 3rd Party Corporate investment grade,NULL
+51,Guarantee - 3rd Party Corporate investment grade,50
+52,Guarantee - 3rd Party Corporate non-investment grade guarantor,NULL
+53,Guarantee - 3rd Party Corporate non-investment grade guarantor,52
+54,Helicopters supported by contracts,NULL
+55,Helicopters supported by contracts,54
+56,Housing Association Stock,NULL
+57,Moveable,NULL
+58,Other,NULL
+59,Other Collateral Type,NULL
+60,Other Collateral Type,59
+61,Other Specialised Lending Collateral type,NULL
+62,Other Specialised Lending Collateral type,61
+63,Passenger Rail/TfL Buses,NULL
+64,Passenger Rail/TfL Buses,63
+65,Physical Infrastructure incl oil & gas,NULL
+66,Physical Infrastructure incl oil & gas,65
+67,Pledge,NULL
+68,Project Finance,NULL
+69,Benchmark valuation - Final Phase,68
+70,Benchmark valuation - Initial Phase,68
+71,Benchmark valuation - Mid Phase,68
+72,Benchmark valuation - Operation,68
+73,Market driven valuation - Final Phase,68
+74,Market driven valuation - Initial Phase,68
+75,Market driven valuation - Mid Phase,68
+76,Market driven valuation - Operation,68
+77,Property,NULL
+78,Set Off Agreement,NULL
+79,Ship Mortgage,NULL
+80,Yellow Goods - Excavation,NULL
+81,Yellow Goods - Excavation,80
+82,Import L/C (commodities - non perishable),NULL
+83,Import L/C (commodities - non perishable),82
+84,Import L/C (non perishable goods/services),NULL
+85,Import L/C (non perishable goods/services),84
+86,Bank Export L/Cs,NULL
+87,Bank Export L/Cs,86
+88,Trade Assisted Lending backed by goods,NULL
+89,Trade Assisted Lending backed by goods,88
+90,Social Housing - EUV,NULL
+91,Social Housing - EUV,90
+92,Highly liquid Bonds/Listed Securities/FX/Precious metals,NULL
+93,Highly liquid Bonds/Listed Securities/FX/Precious metals,92
+94,Life Policy (surrender value),NULL
+95,Life Policy (surrender value),94
+96,Social Housing – Mkt Value,NULL
+97,Social Housing – Mkt Value,96
+98,Securities inc Stocks & Shares,NULL
+99,Securities inc Stocks & Shares,98
+100,"Residential F/Hold, L/Hold",NULL
+101,"Residential F/Hold, L/Hold",100
+102,Land,NULL
+103,Land,102
+104,"Commercial F/Hold (excl pubs, hotels and care homes)",17
+105,Commercial Vehicles,NULL
+106,Commercial Vehicles,105
+107,"Charge over natural resources, licences, reserves, infrastructure cashflows",NULL
+108,"Charge over natural resources, licences, reserves, infrastructure cashflows",107
+109,"Commercial L/Hold and all pubs, hotels and care homes",21
+110,Debenture – property,39
+111,Ship,NULL
+112,Ship,111
+113,Alternative Funds,NULL
+114,Alternative Funds,113
+115,Debenture – debtors,35
+116,Debenture – stock,42
+117,Unsecured,NULL
+118,Unsecured,117
+119,Aviation,NULL
+120,Commodities,NULL
+121,Containers,NULL
+122,IT,NULL
+123,Multiple Assets,NULL
+124,Plant & Machinery,NULL
+125,Power,NULL
+126,Receivables,NULL
+127,Road Transport,NULL
+128,Shipping,NULL
+129,Telecoms,NULL
+130,Unsecured,NULL
+131,Property,NULL
+132,Guarantee,NULL
+133,Debenture,NULL
+134,Agricultural Charge,NULL
+135,Life Policy,NULL
+136,Other,NULL
+137,Ship’s Mortgage,NULL
+138,Notes added via main security type,NULL
+139,Charge over cash,NULL
+140,Stocks and Shares,NULL
+141,Not keyed to SRV,NULL
+142,Letter of Set-Off,NULL
+143,Agricultural Charge,NULL
+144,Aircraft Mortgage,NULL
+145,Bond and Floating charge,NULL
+146,Charge over cash,NULL
+147,Chattel Mortgage,NULL
+148,Debenture,NULL
+149,Deed of Subordination,NULL
+150,Guarantee,NULL
+151,Land/Property,NULL
+152,Life Policy,NULL
+153,Negative Pledge,NULL
+154,OGSA,NULL
+155,Other,NULL
+156,Pensions and Investment Bonds,NULL
+157,Postponement of Directors Loan,NULL
+158,Ship Mortgage,NULL
+159,Short Form Guarantee,NULL
+160,Stocks and Shares,NULL
+161,Deed Of Postponement (Adult Occupier) ,NULL
+162,Deed of Variation (MCOB),NULL
+163,CCA,NULL
+164,Deed Of Admission (OGSA),NULL
+165,Transfer Of Title ,NULL

@@ -1,0 +1,5 @@
+﻿RankingChargeTypeID,RankingChargeTypeCode,RankingChargeTypeDescription
+ChargeOrderID,ChargeOrderCode,ChargeOrderDescription
+1,1st,First Charge
+2,2nd,Second Charge
+3,Subsequent,Subsequent Charges

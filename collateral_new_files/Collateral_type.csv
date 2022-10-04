@@ -1,0 +1,166 @@
+﻿CollateralTypeSubTypeID,CollateralTypeDescription,CollateralSubTypeDescription
+1,Aircraft,Mortgage    
+2,Assignment,All Risks
+3,Assignment,Assignment Over Other Insurance Policy
+4,Assignment,Assignment of Sub-Hire Agreements
+5,Assignment,Assignment of Time Charter
+6,Assignment,CFF Agreement
+7,Assignment,Consequential Loss
+8,Assignment,Endowment
+9,Assignment,Income Contracts (Rental Income)
+10,Assignment,Income Contracts (Sale Proceeds)
+11,Assignment,Keyman Assurance
+12,Assignment,Life Policy Assignation
+13,Assignment,NOT APPLICABLE
+14,Assignment,Other
+15,Assignment,Performance Contracts
+16,Assignment,Trade Indemnity
+17,Charge Over,Debtor Book    
+18,Collateral Warranty,Assigned
+19,Collateral Warranty,Direct
+20,Collateral Warranty,NOT APPLICABLE
+21,Counter,Indemnity    
+22,Cross Guarantee,Cross Guarantee
+23,Cross Guarantee,NOT APPLICABLE
+24,Cross Guarantee,Omnibus Guarantee & Set Off Agreement
+25,Debenture,NOT APPLICABLE
+26,Guarantee,Bank
+27,Guarantee,Corporate - Downstream
+28,Guarantee,Corporate - Upstream
+29,Guarantee,Cost-Overrun
+30,Guarantee,ECA
+31,Guarantee,EFG
+32,Guarantee,FLD
+33,Guarantee,Interest Shortfall
+34,Guarantee,Joint Hirer
+35,Guarantee,NOT APPLICABLE
+36,Guarantee,Other
+37,Guarantee,Other State
+38,Guarantee,Parent
+39,Guarantee,Performance Bond
+40,Guarantee,Personal
+41,Guarantee,Residual Value
+42,Guarantee,SFLGS
+43,Guarantee,Short Form
+44,Guarantee,Specialist
+45,Guarantee,Standard
+46,Guarantee,Tax Refund
+47,Guarantee,Top Slice
+48,Guarantee,Trains DFT Arrangement
+49,Housing,Association Stock
+50,Moveable,Agricultural Charge
+51,Moveable,Debenture
+52,Moveable,Floating Charge
+53,Moveable,NOT APPLICABLE
+54,Moveable,Other
+55,N/A,N/A
+56,Other,Assignment of Agreement to Lease
+57,Other,Assignment of Intellectual Property Rights
+58,Other,Blocked Deposits
+59,Other,Chattel Mortgage
+60,Other,Deed of priorities
+61,Other,Inter-Creditor Agreement
+62,Other,Letter of Postponement
+63,Other,Letter of Waiver
+64,Other,NOT APPLICABLE
+65,Other,Negative Pledge
+66,Other,Other
+67,Other,Trains no DFT Arrangement
+68,Other,Unilateral Notices
+69,Owned Asset,NOT APPLICABLE
+70,Pledge,Cash Deposits
+71,Pledge,Gold
+72,Pledge,Listed Debt Securities
+73,Pledge,Listed Equity Investments
+74,Pledge,NOT APPLICABLE
+75,Pledge,Other Assets
+76,Pledge,Pledge Over Inventories
+77,Pledge,Pledge Over Receivables
+78,Pledge,Unlisted Debt Securities
+79,Pledge,Unlisted Equity Investments
+80,Property,Bungalow
+81,Property,Business unit
+82,Property,Factory
+83,Property,Farm
+84,Property,Flat
+85,Property,Flat and Shop
+86,Property,Hotel
+87,Property,House
+88,Property,Land only
+89,Property,Legal Charge
+90,Property,Licensed premises
+91,Property,Maisonetee
+92,Property,NOT APPLICABLE
+93,Property,Office
+94,Property,Other
+95,Property,Other Commercial
+96,Property,Other Residental
+97,Property,Restaurant
+98,Property,Semi Detached
+99,Property,Shop
+100,Property,Standard Security
+101,Property,Ware house
+102,Set Off Agreement,Letter of Set Off
+103,Set Off Agreement,NOT APPLICABLE
+104,Set Off Agreement,OGSA
+105,Set Off Agreement,Omnibus Letter of Set Off
+106,Set Off Agreement,Omnibus Style
+107,Set Off Agreement,Other
+108,Set Off Agreement,Own Debts
+109,Set Off Agreement,Third Party Style
+110,Ship,Mortgage    
+111,UNKNOWN,UNKNOWN
+112,Ship,111
+113,Alternative Funds,NULL
+114,Alternative Funds,113
+115,Debenture – debtors,35
+116,Debenture – stock,42
+117,Unsecured,NULL
+118,Unsecured,117
+119,Aviation,NULL
+120,Commodities,NULL
+121,Containers,NULL
+122,IT,NULL
+123,Multiple Assets,NULL
+124,Plant & Machinery,NULL
+125,Power,NULL
+126,Receivables,NULL
+127,Road Transport,NULL
+128,Shipping,NULL
+129,Telecoms,NULL
+130,Unsecured,NULL
+131,Property,NULL
+132,Guarantee,NULL
+133,Debenture,NULL
+134,Agricultural Charge,NULL
+135,Life Policy,NULL
+136,Other,NULL
+137,Ship’s Mortgage,NULL
+138,Notes added via main security type,NULL
+139,Charge over cash,NULL
+140,Stocks and Shares,NULL
+141,Not keyed to SRV,NULL
+142,Letter of Set-Off,NULL
+143,Agricultural Charge,NULL
+144,Aircraft Mortgage,NULL
+145,Bond and Floating charge,NULL
+146,Charge over cash,NULL
+147,Chattel Mortgage,NULL
+148,Debenture,NULL
+149,Deed of Subordination,NULL
+150,Guarantee,NULL
+151,Land/Property,NULL
+152,Life Policy,NULL
+153,Negative Pledge,NULL
+154,OGSA,NULL
+155,Other,NULL
+156,Pensions and Investment Bonds,NULL
+157,Postponement of Directors Loan,NULL
+158,Ship Mortgage,NULL
+159,Short Form Guarantee,NULL
+160,Stocks and Shares,NULL
+161,Deed Of Postponement (Adult Occupier) ,NULL
+162,Deed of Variation (MCOB),NULL
+163,CCA,NULL
+164,Deed Of Admission (OGSA),NULL
+165,Transfer Of Title ,NULL

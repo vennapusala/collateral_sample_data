@@ -1,0 +1,5 @@
+﻿CollateralStatusID,CollateralStatusDescription
+1,Available - Draw Down Permitted
+2,Perfected Legally Complete
+3,Discharge Requested
+4,Recoveries Case Closed - Not Discharged
