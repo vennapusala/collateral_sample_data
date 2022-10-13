@@ -1,0 +1,111 @@
+create schema if not exists consumption_layer;
+create or replace view consumption_layer.v_collateral as
+select collateral_hk,
+source_collateral,
+source_system,
+collateral_type_code,
+collateral_type_description,
+collateral_subtype_code,
+collateral_subtype_description,
+load_date
+from
+(select h.collateral_hk,
+h.collateral_id as source_collateral,
+h.record_source as source_system,
+s.collateral_type_code,
+s.collateral_type_description,
+s.collateral_subtype_code,
+s.collateral_subtype_description,
+s.load_date,
+row_number() over(partition by s.collateral_hk order by s.load_date desc) as rn
+from data_vault.h_collateral h, data_vault.s_collateral_type s
+where s.collateral_hk = h.collateral_hk)
+where rn = 1;
+
+
+
+create schema if not exists consumption_layer;
+create or replace view consumption_layer.v_property as
+select collateral_hk,
+source_collateral,
+source_system,
+property_type,
+property_type_description,
+tenure_type,
+property_use,
+region,
+post_code,
+load_date
+from
+(select h.collateral_hk,
+h.collateral_id as source_collateral,
+h.record_source as source_system,
+s.property_type,
+s.property_type_description,
+s.tenure_type,
+s.property_use,
+s.region,
+s.post_code,
+s.load_date,
+row_number() over(partition by s.collateral_hk order by s.load_date desc) as rn
+from data_vault.h_collateral h, data_vault.s_collateral_propery s
+where s.collateral_hk = h.collateral_hk)
+where rn = 1;
+
+
+
+create schema if not exists consumption_layer;
+create or replace view consumption_layer.v_valuation as
+select collateral_hk,
+source_collateral,
+source_system,
+valuation_type,
+gross_value,
+discounted_value,
+indexation,
+valuation_currency,
+valuation_date,
+load_date,
+from
+(select h.collateral_hk,
+h.collateral_id as source_collateral,
+h.record_source as source_system,
+s.valuation_type,
+s.gross_value,
+s.discounted_value,
+s.indexation,
+s.valuation_currency,
+s.valuation_date,
+s.load_date,
+row_number() over(partition by s.collateral_hk order by s.load_date desc) as rn
+from data_vault.h_collateral h, data_vault.s_collateral_valuation s
+where s.collateral_hk = h.collateral_hk)
+where rn = 1;
+
+
+
+create schema if not exists consumption_layer;
+create or replace view consumption_layer.v_collateral_Customer as
+select
+collateral_hk,
+source_collateral,
+source_system,
+collateral_type_code,
+collateral_subtype_code,
+sdp_providing_cust_bk,
+sdp_beneficiary_cust_bk
+load_date
+from
+(select h.collateral_hk,
+h.collateral_id as source_collateral,
+h.record_source as source_system,
+s.collateral_type_code,
+s.collateral_subtype_code,
+s.load_date,
+l.sdp_providing_cust_bk,
+l.sdp_beneficiary_cust_bk,
+row_number() over(partition by s.collateral_hk order by s.load_date desc) as rn
+from data_vault.h_collateral h, data_vault.s_collateral_type s, data_vault.l_collateral_x_core
+where s.collateral_hk = h.collateral_hk
+and  l.collateral_hk = h.collateral_hk )
+where rn = 1;
