@@ -1,0 +1,39 @@
+{
+  "data": {
+    "schema": "DQ2p5WhpBuKhESA2IBOikw",
+    "payload": {
+      "LastModifiedDate": "2022-09-15T15:17:09.000Z",
+      "LLC_BI__Start_Date__c": "2027-08-24",
+      "LLC_BI__Account__c": "0015f00000G5oxQAAR",
+      "LLC_BI__Pledging_Authority__c": true,
+      "LLC_BI__Primary_Owner__c": false,
+      "Name": "AC-00074",
+      "CreatedById": "0055f00000669Z0AAI",
+      "ChangeEventHeader": {
+        "commitNumber": 440584567003,
+        "commitUser": "0055f00000669Z0AAI",
+        "sequenceNumber": 1,
+        "entityName": "LLC_BI__Account_Collateral__c",
+        "changeType": "CREATE",
+        "changedFields": [
+        ],
+        "changeOrigin": "com/salesforce/api/soap/55.0;client=SfdcInternalAPI/",
+        "transactionKey": "0005dc41-d338-86d1-0e48-d14ab5ecf135",
+        "commitTimestamp": 1663255029000,
+        "recordIds": [
+          "a1w5f000001MM6nAAG"
+        ]
+      },
+      "CreatedDate": "2022-09-15T15:17:09.000Z",
+      "LLC_BI__Collateral_Association__c": "Owner",
+      "LLC_BI__Collateral__c": "a1y5f000000VnVEAA0",
+      "LastModifiedById": "0055f00000669Z0AAI",
+      "LLC_BI__Ownership_Percentage__c": 100,
+      "LLC_BI__Group_Association__c": "Member"
+    },
+    "event": {
+      "replayId": 19682012
+    }
+  },
+  "channel": "/data/LLC_BI__Account_Collateral__ChangeEvent"
+}

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "schema": "XKukKj4TFYUaSCJztY9O8w",
+    "payload": {
+      "LastModifiedDate": "2022-09-15T15:20:15.000Z",
+      "Name": "Circle Center Limited Partnership - Term Loan - $90,000.00",
+      "ChangeEventHeader": {
+        "commitNumber": 440586644752,
+        "commitUser": "0055f00000669Z0AAI",
+        "sequenceNumber": 1,
+        "entityName": "LLC_BI__Loan__c",
+        "changeType": "UPDATE",
+        "changedFields": [
+          "Name",
+          "LastModifiedDate",
+          "LLC_BI__Amount__c"
+        ],
+        "changeOrigin": "com/salesforce/api/rest/55.0",
+        "transactionKey": "0005dd0f-dd0d-0646-61f3-24daffb1a606",
+        "commitTimestamp": 1663255215000,
+        "recordIds": [
+          "a0i5f0000023cTpAAI"
+        ]
+      },
+      "LLC_BI__Amount__c": 90000
+    },
+    "event": {
+      "replayId": 19682032
+    }
+  },
+  "channel": "/data/LLC_BI__Loan__ChangeEvent"
+}

@@ -1,0 +1,30 @@
+{
+  "data": {
+    "schema": "WNDjJOm6Q2hKDfhLd4mc1A",
+    "payload": {
+      "LastModifiedDate": "2022-09-15T15:13:59.000Z",
+      "ChangeEventHeader": {
+        "commitNumber": 440582969682,
+        "commitUser": "0055f00000669Z0AAI",
+        "sequenceNumber": 1,
+        "entityName": "LLC_BI__Collateral__c",
+        "changeType": "UPDATE",
+        "changedFields": [
+          "LastModifiedDate",
+          "LLC_BI__Value__c"
+        ],
+        "changeOrigin": "com/salesforce/api/soap/55.0;client=SfdcInternalAPI/",
+        "transactionKey": "0005dc13-adb4-ee94-06f5-0c0ba6bd7569",
+        "commitTimestamp": 1663254839000,
+        "recordIds": [
+          "a1y5f000000VnVEAA0"
+        ]
+      },
+      "LLC_BI__Value__c": 190000
+    },
+    "event": {
+      "replayId": 19681985
+    }
+  },
+  "channel": "/data/LLC_BI__Collateral__ChangeEvent"
+}
